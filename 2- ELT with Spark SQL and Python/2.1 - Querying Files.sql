@@ -189,4 +189,3 @@ DESCRIBE EXTENDED books
 
 -- COMMAND ----------
 
-
