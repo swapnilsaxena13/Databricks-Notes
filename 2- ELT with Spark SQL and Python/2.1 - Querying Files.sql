@@ -28,6 +28,16 @@
 
 -- COMMAND ----------
 
+SELECT
+    *,
+    _metadata.file_path AS source_file,
+    _metadata.file_name AS file_name,
+    _metadata.file_size AS file_size,
+    _metadata.file_modification_time AS modified_at
+FROM json.`/Volumes/workspace/default/bookstore_dataset/customers-json/`;
+
+-- COMMAND ----------
+
 SELECT * FROM json.`${dataset_bookstore}/customers-json/export_001.json`
 
 -- COMMAND ----------
