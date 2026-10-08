@@ -181,4 +181,3 @@ SELECT * FROM transactions
 
 -- COMMAND ----------
 
-
